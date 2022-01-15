@@ -19,7 +19,7 @@
     <title>Quan Ly Tuyen Sinh</title>
   </head>
   <body>
-    <form id="form" class="container">
+    <form id="formTuyenSinh" class="container">
       <h1>Quản Lý Tuyển Sinh</h1>
       <div class="form-group">
         <label for="inputStandardMark">Nhập điểm chuẩn của trường</label>
@@ -57,8 +57,66 @@
       </div>
 
       <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
-      <div id="divResult" class="my-2 p-3"></div>
+      <div id="divResultTuyenSinh" class="my-2 p-3"></div>
     </form>
+    <form id="formTienDien" class="container">
+      <h1>Tính tiền điện</h1>
+      <div class="form-group">
+        <label for="inputName">Nhập tên</label>
+        <input type="text" class="form-control" id="inputName" />
+      </div>
+      <div class="form-group">
+        <label for="inputConsume">Số điện tiêu thụ</label>
+        <input type="text" class="form-control" id="inputConsume" />
+      </div>
+
+      <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
+      <div id="divResultTienDien" class="my-2 p-3"></div>
+    </form>
+    <form id="formTienThue" class="container">
+      <h1>Tính tiền thuế</h1>
+      <div class="form-group">
+        <label for="inputUserName">Nhập tên</label>
+        <input type="text" class="form-control" id="inputUserName" />
+      </div>
+      <div class="form-group">
+        <label for="inputIncome">Số tiền thu nhập trong năm (triệu VND)</label>
+        <input type="text" class="form-control" id="inputIncome" />
+      </div>
+      <div class="form-group">
+        <label for="inputNumberPerson">Số người phụ thuộc</label>
+        <input type="text" class="form-control" id="inputNumberPerson" />
+      </div>
+
+      <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
+      <div id="divResultTienThue" class="my-2 p-3"></div>
+    </form>
+    <form id="formTienCap" class="container">
+      <h1>Tính Tiền Cáp</h1>
+      <div class="form-group">
+        <label for="inputCode">Mã khách hàng</label>
+        <input type="text" class="form-control" id="inputCode" />
+      </div>
+      <div class="form-group">
+        <label for="optionClient">Loại khách hàng</label>
+        <select class="form-control" id="optionClient">
+          <option>Nhà dân</option>
+          <option>Doanh nghiệp</option>
+        </select>
+      </div>
+      <div id="idConnect" class="form-group" style="display: none">
+        <label for="inputConnect">Số kết nối</label>
+        <input type="text" class="form-control" id="inputConnect" />
+      </div>
+      <div class="form-group">
+        <label for="inputChanel">Số kênh cao cấp</label>
+        <input type="text" class="form-control" id="inputChanel" />
+      </div>
+
+      <button type="submit" class="btn btn-primary btnSubmit">Submit</button>
+      <div id="divResultTienCap" class="my-2 p-3"></div>
+    </form>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -82,6 +140,9 @@
       integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
     ></script>
-    <script src="./main.js"></script>
+    <script src="./QuanLyTuyenSinh/QuanLyTuyenSinh.js"></script>
+    <!-- <script src="./TinhTienDien/TinhTienDien.js"></script> -->
+    <!-- <script src="./TinhTienThue/TinhTienThue.js"></script> -->
+    <!-- <script src="./TinhTienCap/TinhTienCap.js"></script> -->
   </body>
 </html>

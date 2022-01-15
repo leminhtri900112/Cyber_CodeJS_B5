@@ -7,8 +7,8 @@ var client = id("optionClient");
 var connect = id("inputConnect");
 var chanel = id("inputChanel");
 var idConnect = id("idConnect");
-var form = id("form");
-var divResult = id("divResult");
+var form = id("formTienCap");
+var divResult = id("divResultTienCap");
 
 client.addEventListener("change", function () {
   if (client.selectedIndex === 0) {

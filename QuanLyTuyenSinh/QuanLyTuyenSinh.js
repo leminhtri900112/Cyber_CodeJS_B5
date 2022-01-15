@@ -8,8 +8,8 @@ var mark2 = id("inputMark_2");
 var mark3 = id("inputMark_3");
 var area = id("optionArea");
 var object = id("optionObject");
-var form = id("form");
-var divResult = id("divResult");
+var form = id("formTuyenSinh");
+var divResult = id("divResultTuyenSinh");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();

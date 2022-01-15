@@ -2,11 +2,11 @@ function id(id) {
   return document.getElementById(id);
 }
 
-var username = id("inputName");
+var username = id("inputUserName");
 var income = id("inputIncome");
 var person = id("inputNumberPerson");
-var form = id("form");
-var divResult = id("divResult");
+var form = id("formTienThue");
+var divResult = id("divResultTienThue");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();

@@ -4,8 +4,8 @@ function id(id) {
 
 var username = id("inputName");
 var consume = id("inputConsume");
-var form = id("form");
-var divResult = id("divResult");
+var form = id("formTienDien");
+var divResult = id("divResultTienDien");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
